@@ -26,3 +26,4 @@ Hosts/Net: 254                   (Private Internet)
 
 ## 📚 References
 https://www.techtarget.com/searchnetworking/tip/IP-addressing-and-subnetting-Calculate-a-subnet-mask-using-the-hosts-formula
+https://www.softwaretestinghelp.com/subnet-mask-and-network-classes/
