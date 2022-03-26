@@ -10,7 +10,7 @@
 2. Complete the empty fields and click on button `Check again` to verify whether your configuration is correct or not.
 3. Once the exercise is successful, click on button `Get my config` to download your configuration.
 4. When you have successfully completed a level, click on button `Next level`.
-5. [Start](https://ricardoreves.github.io/42-net-practice/).
+5. Click [here](https://ricardoreves.github.io/42-net-practice/) to start training.
 
 ## 🧠 Networking Basics
 ### What is IP?
