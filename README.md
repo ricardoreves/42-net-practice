@@ -6,12 +6,11 @@
 ## 📷 Preview
 
 ## 🕹️ Usage
-1. There are 10 levels available for training, click [here](https://ricardoreves.github.io/42-net-practice/) to start.
-2. Complete the empty fields and press `Check again` to verify whether your configuration is correct or not.
-3. Once the exercise is successful, click on `Get my config` to download your configuration whenever you need to. It will be
-useful to turn in your assignment.
-4. When you have successfully completed a level, a button `Next level` will appear, click on
-this button to get to the next level.
+1. There are 10 levels available for training.
+2. Complete the empty fields and click on button `Check again` to verify whether your configuration is correct or not.
+3. Once the exercise is successful, click on button `Get my config` to download your configuration.
+4. When you have successfully completed a level, click on button `Next level`.
+5. [Start](https://ricardoreves.github.io/42-net-practice/).
 
 ## 🧠 Networking Basics
 ### What is IP?
