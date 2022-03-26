@@ -4,6 +4,7 @@
 🌐 NetPractice aims to introduce you to the network through practical cases.
 
 ## 📷 Preview
+[preview](imgs/preview.png)
 
 ## 🕹️ Usage
 1. There are 10 levels available for training.
