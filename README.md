@@ -4,7 +4,7 @@
 🌐 NetPractice aims to introduce you to the network through practical cases.
 
 ## 📷 Preview
-[preview](imgs/preview.png)
+![preview](imgs/preview.png)
 
 ## 🕹️ Usage
 1. There are 10 levels available for training.
@@ -75,10 +75,11 @@ Hosts/Net: 254                   (Private Internet)
 [IP Calculator](https://jodies.de/ipcalc) - ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range.
 
 ## 📚 References
-https://www.techtarget.com/searchnetworking/tip/IP-addressing-and-subnetting-Calculate-a-subnet-mask-using-the-hosts-formula
-https://www.softwaretestinghelp.com/subnet-mask-and-network-classes/
-https://avinetworks.com/glossary/subnet-mask/
-https://www.packetcoders.io/a-beginners-guide-to-subnetting/
+- [techtarget.com](https://www.techtarget.com/searchnetworking/tip/IP-addressing-and-subnetting-Calculate-a-subnet-mask-using-the-hosts-formula) - How to calculate a subnet mask from hosts and subnets
+- [softwaretestinghelp.com](https://www.softwaretestinghelp.com/subnet-mask-and-network-classes/) - Guide to Subnet Mask (Subnetting) & IP Subnet Calculator
+
+- [avinetworks.com](https://avinetworks.com/glossary/subnet-mask/) - Glossary Subnet mask
+- [packetcoders.io](https://www.packetcoders.io/a-beginners-guide-to-subnetting/) - A Beginners Guide to Subnetting
 
 ## 📝 License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
