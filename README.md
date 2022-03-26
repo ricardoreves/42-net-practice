@@ -3,27 +3,30 @@
 ## 🪧 Overview
 🌐 NetPractice aims to introduce you to the network through practical cases.
 
-## 🚀 Getting Started
-1. Click [here](https://ricardoreves.github.io/42-net-practice/) to start the exercices
-2. Complete the empty fields and press `Check again` to check if the network is working
-3. Once the exercise is successful, click on `Get my config` to download a network config file
+## 📷 Preview
 
-## 🧠 Understanding IP Addressing
+## 🕹️ Usage
+1. There are 10 levels available for training, click [here](https://ricardoreves.github.io/42-net-practice/) to start.
+2. Complete the empty fields and press `Check again` to verify whether your configuration is correct or not.
+3. Once the exercise is successful, click on `Get my config` to download your configuration whenever you need to. It will be
+useful to turn in your assignment.
+4. When you have successfully completed a level, a button `Next level` will appear, click on
+this button to get to the next level.
+
+## 🧠 Networking Basics
 ### What is IP?
 IP is a connectionless protocol that operates at the network layer of the OSI model. IP enables communication between hosts by carrying data within packets. Each host is assigned an IP address which is used to ensure that traffic is sent to the correct destination, synonymous in many ways to a postal address that we place on a letter.
 
-### Easy-to-understand binary values
-```
-Address:   192.168.0.1           11000000.10101000.00000000 .00000001
-Netmask:   255.255.255.0 = 24    11111111.11111111.11111111 .00000000
-Wildcard:  0.0.0.255             00000000.00000000.00000000 .11111111
-=>
-Network:   192.168.0.0/24        11000000.10101000.00000000 .00000000 (Class C)
-Broadcast: 192.168.0.255         11000000.10101000.00000000 .11111111
-HostMin:   192.168.0.1           11000000.10101000.00000000 .00000001
-HostMax:   192.168.0.254         11000000.10101000.00000000 .11111110
-Hosts/Net: 254                   (Private Internet)
-```
+An IP address (in the case of v4) is built upon 32-bits, expressed in four numbers known as octets. Each octet is 8 bits i.e one byte.
+- `Network` - the network the IP address belongs to. For example the street name.
+- `Host` - the host identifier of the device for the network. For example the house number.
+![](https://www.packetcoders.io/content/images/2019/05/image2-1.png)
+
+### What is Subnet Mask?
+A subnet mask is a 32-bit number created by setting host bits to all 0s and setting network bits to all 1s. In this way, the subnet mask separates the IP address into the network and host addresses.
+
+The “255” address is always assigned to a broadcast address, and the “0” address is always assigned to a network address. Neither can be assigned to hosts, as they are reserved for these special purposes.
+![](https://www.packetcoders.io/content/images/2019/05/image1-4.png)
 
 ### Subnet Mask Chart
 Here is a quick reference table for help when subnetting.
@@ -55,6 +58,18 @@ Here is a quick reference table for help when subnetting.
 |255.128.0.0| 	/9| 	11111111.10000000.00000000.00000000| 	9| 	23| 	8388608|
 |255.0.0.0| 	    /8| 	11111111.00000000.00000000.00000000| 	8| 	24| 	16777216| 
 
+### Example
+```
+Address:   192.168.0.1           11000000.10101000.00000000 .00000001
+Netmask:   255.255.255.0 = 24    11111111.11111111.11111111 .00000000
+Wildcard:  0.0.0.255             00000000.00000000.00000000 .11111111
+=>
+Network:   192.168.0.0/24        11000000.10101000.00000000 .00000000 (Class C)
+Broadcast: 192.168.0.255         11000000.10101000.00000000 .11111111
+HostMin:   192.168.0.1           11000000.10101000.00000000 .00000001
+HostMax:   192.168.0.254         11000000.10101000.00000000 .11111110
+Hosts/Net: 254                   (Private Internet)
+```
 
 ## 🧰 Tools
 [IP Calculator](https://jodies.de/ipcalc) - ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range.
