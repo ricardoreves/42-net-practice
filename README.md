@@ -78,3 +78,6 @@ https://www.techtarget.com/searchnetworking/tip/IP-addressing-and-subnetting-Cal
 https://www.softwaretestinghelp.com/subnet-mask-and-network-classes/
 https://avinetworks.com/glossary/subnet-mask/
 https://www.packetcoders.io/a-beginners-guide-to-subnetting/
+
+## 📝 License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
