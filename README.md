@@ -1,7 +1,7 @@
 # 42-net-practice
 
 ## 🪧 Overview
-🌐 NetPractice aims to introduce you to the network through practical cases.
+🌐  NetPractice is a general practical exercise to let you discover networking. 
 
 ## 📷 Preview
 ![preview](imgs/preview.png)
